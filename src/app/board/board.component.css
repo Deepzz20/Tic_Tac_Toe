@@ -1,0 +1,33 @@
+button {
+    background-image: url('/assets/tile.png');
+    background-size: cover;
+    border: none;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media (min-width: 1200px) {
+    button {
+      width: 125px;
+      height: 125px;
+    }
+
+    button img {
+      width: 110px;
+      height: 110px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    button {
+      width: 80px;
+      height: 80px;
+    }
+
+    button img {
+      width: 70px;
+      height: 70px;
+    }
+  }
+
